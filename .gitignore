@@ -1,0 +1,6 @@
+# Ignore logs foler from git
+/Logs/*
+
+# Ignore files
+.DS_Store
+**/.DS_Store
