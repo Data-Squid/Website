@@ -1,0 +1,11 @@
+version: '3.2'
+
+services:
+  dataSquid-LandingPage:
+    image: httpd:latest
+    container_name: dataSquid-LandingPage
+    ports:
+      - 88:80
+    volumes:
+      - ./WebApp/:/var/www/html/
+      - ./Logs/WebApp:/var/log/apache2/
